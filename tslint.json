@@ -1,0 +1,39 @@
+{
+    "extends": [
+        "tslint:recommended",
+        "tslint-react",
+        "tslint-sonarts",
+        "tslint-config-prettier"
+    ],
+    "rules": {
+        "curly": false,
+        "interface-name": [
+            false
+        ],
+        "jsx-no-lambda": false,
+        "jsx-boolean-value": [true, "never"],
+        "max-classes-per-file": false,
+        "max-union-size": false,
+        "member-access": false,
+        "no-duplicate-imports": true,
+        "no-unused-expression": [
+            true,
+            "allow-fast-null-checks"
+        ],
+        "object-literal-sort-keys": false,
+        "ordered-imports": true,
+        "variable-name": [
+            true,
+            "allow-leading-underscore",
+            "allow-pascal-case"
+        ],
+        "no-small-switch": false
+    },
+    "jsRules": {},
+    "linterOptions": {
+        "exclude": [
+            "node_modules/**/*",
+            "**/*.js"
+        ]
+    }
+}
