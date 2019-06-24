@@ -12,4 +12,4 @@ Simple playground with React Native
 
 ## Screenshot
 
-![alt text](https://raw.githubusercontent.com/kurniaeliazar/SimpleContactAppRN/master/simpleContactApp-screenshot.png)
+![alt text](https://github.com/kurniaeliazar/SimpleContactApp/blob/master/simpleContactApp-screenshot.png)
